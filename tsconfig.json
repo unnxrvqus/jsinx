@@ -13,5 +13,9 @@
     "include": [
         "src/**/*.ts",
         "bin/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
     ]
 }

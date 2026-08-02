@@ -2,16 +2,23 @@
   "name": "jsinx",
   "version": "1.0.0",
   "description": "A small project that automates the creation of a basic backend development environment using Docker.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": "node bin/cli.ts"
+    "jsinx": "./dist/bin/jsinx.js"
+  },
+  "bin": {
+    "jsinx": "./dist/bin/jsinx.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "unnxrvqus",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "node": "^26.5.1",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
     "@types/node": "^26.1.2",
-    "node": "^26.5.1"
+    "tsx": "^4.23.1"
   }
 }
