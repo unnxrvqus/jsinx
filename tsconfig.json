@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node"
+        ],
+        "target": "ES2022",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "outDir": "dist",
+        "rootDir": ".",
+        "esModuleInterop": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "bin/**/*.ts"
+    ]
+}
