@@ -1,0 +1,17 @@
+{
+  "name": "jsinx",
+  "version": "1.0.0",
+  "description": "A small project that automates the creation of a basic backend development environment using Docker.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node bin/cli.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^26.1.2",
+    "node": "^26.5.1"
+  }
+}
